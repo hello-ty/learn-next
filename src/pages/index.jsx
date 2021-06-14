@@ -34,6 +34,7 @@ export default function Home(props) {
           return <li key={item}>{item}</li>;
         })}
       </ul>
+      <button onClick={handleAdd}>追加</button>
 
       <Main page="index" />
       <Footer />
